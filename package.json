@@ -1,5 +1,4 @@
 {
-    "homepage": "spotify-now-playing",
     "dependencies": {
         "buffer": "^6.0.3",
         "querystring": "^0.2.1",

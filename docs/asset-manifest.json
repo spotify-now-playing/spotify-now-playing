@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spotify-now-playing/static/css/main.a4c23bac.css",
-    "main.js": "/spotify-now-playing/static/js/main.26e12e5b.js",
-    "static/js/496.4876870d.chunk.js": "/spotify-now-playing/static/js/496.4876870d.chunk.js",
-    "index.html": "/spotify-now-playing/index.html",
-    "main.a4c23bac.css.map": "/spotify-now-playing/static/css/main.a4c23bac.css.map",
-    "main.26e12e5b.js.map": "/spotify-now-playing/static/js/main.26e12e5b.js.map",
-    "496.4876870d.chunk.js.map": "/spotify-now-playing/static/js/496.4876870d.chunk.js.map"
+    "main.css": "/static/css/main.a4c23bac.css",
+    "main.js": "/static/js/main.24e49bcc.js",
+    "static/js/496.4876870d.chunk.js": "/static/js/496.4876870d.chunk.js",
+    "index.html": "/index.html",
+    "main.a4c23bac.css.map": "/static/css/main.a4c23bac.css.map",
+    "main.24e49bcc.js.map": "/static/js/main.24e49bcc.js.map",
+    "496.4876870d.chunk.js.map": "/static/js/496.4876870d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4c23bac.css",
-    "static/js/main.26e12e5b.js"
+    "static/js/main.24e49bcc.js"
   ]
 }
