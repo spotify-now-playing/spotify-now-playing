@@ -42,7 +42,7 @@ unclutter -idle 0.5 -root &
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/pi/.config/chromium/Default/Preferences
 sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium/Default/Preferences
 
-/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk https://spotify-now-playing.github.io/spotify-now-playing &
+/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk https://spotify-now-playing.github.io/spotify-now-playing?spotify_client_id=[CLIENT_ID]&spotify_client_secret=[CLIENT_SECRET]&spotify_refresh_token=[CLIENT_REFRESH_TOKEN] &
 
 while true; do
    xdotool keydown ctrl+Tab; xdotool keyup ctrl+Tab;
@@ -77,3 +77,7 @@ WantedBy=graphical.target
 $ sudo systemctl enable kiosk.service
 $ sudo systemctl start kiosk.service
 ```
+
+# Inspired
+
+Inspired by https://github.com/alagappan17/spotify-react-widget/tree/master
